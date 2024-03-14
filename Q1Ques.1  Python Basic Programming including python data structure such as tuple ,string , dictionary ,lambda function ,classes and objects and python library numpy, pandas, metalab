@@ -1,0 +1,82 @@
+Ques.1  Python Basic Programming including python data structure such as tuple ,string , dictionary ,lambda function ,classes and objects and python library numpy, pandas, metalab
+
+Ans) Tuples:
+
+A tuple is an ordered collection of elements enclosed within parentheses (). Unlike lists, tuples are immutable, meaning their elements cannot be changed or modified after creation. Tuples are typically used to group related data together, such as coordinates, RGB values, or pairs of values.
+
+my_tuple = (1, 2, 3, 4, 5)
+
+
+Strings:
+A string is a sequence of characters enclosed within single quotes ' ' or double quotes " ". Strings are immutable in Python, meaning their contents cannot be changed once they are created. They are commonly used to store text data.
+
+my_string = "Hello, World!"
+
+
+Dictionaries:
+A dictionary is an unordered collection of key-value pairs enclosed within curly braces {}. Each key-value pair maps the key to its associated value. Dictionaries are useful for storing and retrieving data based on a unique key.
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+
+Lambda Functions:
+Lambda functions, also known as anonymous functions, are small, inline functions defined using the lambda keyword. They are used when you need a simple function for a short period of time and don't want to define a separate function using the def keyword.
+
+multiply_by_two = lambda x: x * 2
+
+
+Classes and Objects:
+
+Classes are blueprints for creating objects in Python. They define properties (attributes) and behaviors (methods) that objects of that class will have. Objects are instances of classes, and each object can have its own unique state.
+
+class Person:
+    def _init_(self, name, age):
+        self.name = name
+        self.age = age
+
+
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+
+person1 = Person("Alice", 30)
+person1.display_info()
+
+
+NumPy:
+NumPy is a powerful library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently.
+import numpy as np
+
+
+np_array = np.array([1, 2, 3, 4, 5])
+np_mean = np.mean(np_array)
+
+
+pandas:
+pandas is a popular data manipulation and analysis library for Python. It provides data structures like DataFrame and Series, which are designed for working with structured data such as tabular data, time series, and more.
+import pandas as pd
+
+
+
+
+
+data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+        'Age': [25, 30, 35, 40]}
+df = pd.DataFrame(data)
+
+
+Matplotlib:
+
+Matplotlib is a plotting library for Python used to create static, animated, and interactive visualizations in Python. It provides a MATLAB-like interface and supports various types of plots such as line plots, scatter plots, bar plots, histograms, and more.
+import matplotlib.pyplot as plt
+
+
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Simple Plot')
+plt.show()
+
+
+These elements are fundamental to Python programming and are commonly used in various applications across different domains. Understanding them will enable you to work effectively with Python and its libraries for data manipulation, analysis, and visualization.
+
