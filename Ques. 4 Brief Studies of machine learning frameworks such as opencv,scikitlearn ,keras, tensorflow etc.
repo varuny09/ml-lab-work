@@ -1,0 +1,41 @@
+Ques. 4 Brief Studies of machine learning frameworks such as opencv,scikitlearn ,keras, tensorflow etc.
+
+Ans.   OpenCV (Open Source Computer Vision Library):
+
+	What is OpenCV?
+●	OpenCV is an open-source computer vision and machine learning software library.
+●	It is designed to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in commercial products.
+	Key Features:
+●	Image Processing: OpenCV provides a wide range of functions for image processing tasks such as filtering, edge detection, image transformation, etc.
+●	Object Detection: It includes methods for object detection, recognition, and tracking.
+●	Machine Learning: OpenCV integrates with machine learning libraries like scikit-learn and TensorFlow for training and deploying machine learning models.
+scikit-learn:
+	What is scikit-learn?
+●	scikit-learn is a machine learning library for Python built on NumPy, SciPy, and matplotlib.
+●	It provides simple and efficient tools for data mining and data analysis, accessible to everybody and reusable in various contexts.
+
+
+	Key Features:
+●	Supervised Learning: scikit-learn offers algorithms for classification, regression, and clustering tasks.
+●	Model Selection: It provides tools for model selection, including cross-validation, hyperparameter tuning, and model evaluation metrics.
+●	Preprocessing: scikit-learn includes utilities for data preprocessing, feature extraction, and feature selection.
+Keras:
+	What is Keras?
+●	Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano.
+●	It allows for easy and fast prototyping of deep learning models.
+	Key Features:
+●	User-Friendly: Keras offers a simple and intuitive interface for building neural networks, making it easy to design and experiment with models.
+●	Modularity: Models in Keras are built as a sequence of layers, allowing for easy model customization and extension.
+●	Wide Adoption: Keras is widely adopted in both academia and industry due to its ease of use and flexibility.
+TensorFlow:
+	What is TensorFlow?
+●	TensorFlow is an open-source machine learning framework developed by Google Brain.
+●	It provides a comprehensive ecosystem of tools, libraries, and community resources for building and deploying machine learning models.
+
+
+	Key Features:
+●	Flexible Architecture: TensorFlow offers a flexible architecture that allows for building and training a wide range of machine learning models, from simple linear models to complex deep neural networks.
+●	Scalability: TensorFlow supports distributed computing, allowing models to scale across multiple CPUs or GPUs.
+●	Model Deployment: TensorFlow provides tools for deploying models in various environments, including mobile devices, embedded systems, and cloud platforms.
+These are just a few of the many machine learning frameworks available. Each framework has its own strengths and weaknesses, and the choice of framework depends on factors such as project requirements, familiarity, and performance considerations.
+
